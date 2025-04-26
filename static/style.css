@@ -1,0 +1,218 @@
+*{
+    margin: 0;
+    padding: 0;
+    font-family: 'Poppins', Courier, monospace;
+}
+
+body{
+    background: linear-gradient(to top, rgb(99, 64, 255),rgb(255, 73, 73));
+    min-height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.Main-Block {
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 10%;
+    background-color: #ffffff;
+    overflow: hidden;
+    box-shadow: 0 2px 8px rgba(0,0,1,0.3);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    z-index: 10;
+}
+
+.Title {
+    position: relative;
+    font-size: 1.3em; 
+}
+
+.Background-Block{
+    display: block;
+    width: 95%;
+    min-height: 100vh;
+    background-color: white;
+    box-shadow: 0 4px 5px rgba(0,0,1,0.3);
+    overflow: hidden;
+    text-align: center;
+}
+
+.Nerissa, .ERB {
+    text-align: center;
+    width: 30%;
+    position: absolute;
+    top: 42%;
+    transform: translateY(-50%);
+}
+
+.Nerissa {
+    left: 16%;
+}
+
+.ERB {
+    right: 16%;
+}
+
+.Nerissa-Pic, .ERB-Pic {
+    width: 70%;
+    height: auto;
+    transition: opacity 0.3s ease;
+}
+
+.Nerissa-Pic:hover, .ERB-Pic:hover {
+    opacity: 0.7;
+}
+
+.Socials-ERB, .Socials-Nerissa {
+    display: flex;
+    justify-content: center;
+    gap: 16%;
+    position: absolute;
+    top: 42%;
+    margin-top: 12%;
+    width: 30%;
+    text-align: center;
+    transform: translateY(20%);
+}
+
+.Socials-Nerissa {
+    left: 16%;
+}
+
+.Socials-ERB {
+    right: 16%;
+}
+
+.Social-Icon a {
+    text-decoration: none;
+    color: inherit;
+}
+
+.Social-Icon img {
+    width: 65px;
+    height: auto;
+    transition: opacity 0.3s ease;
+}
+
+.Social-Icon img:hover {
+    opacity: 0.7;
+}
+
+.Social-Icon h1 {
+    font-size: 1rem;
+    margin-top: -2px;
+}
+
+a {
+    display: block;
+    text-decoration: none;
+}
+
+.Main-Block h2{
+    color: white;
+    text-shadow:
+    -1px -1px 0 #000,
+    1px -1px 0 #000,
+    -1px 1px 0 #000,
+    1px 1px 0 #000;
+}
+
+.Nerissa h3{
+    color: rgb(255, 255, 255);
+    background-color: #181864;
+    padding: 2px;
+}
+
+.ERB h3{
+    color: rgb(255, 255, 255);
+    background-color: #641818;
+    padding: 2px;
+}
+
+h6 {
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    position: fixed;
+    bottom: 0;
+    width: 80%;
+    text-align: center;
+    background-color: rgba(255, 255, 255, 0.729);
+    padding: 5px;
+    z-index: 1000;
+}
+
+h1{
+    font-size: 1em;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
+
+.Subtitle-Text1{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 80rem;
+    padding-top: 10px;
+}
+
+.Subtitle-Text1 p{
+    display: inline-block;
+    border-top: 2px solid #000 ;
+    border-bottom: 2px solid #000 ;
+    padding: 10px;
+    width: 85%;
+    font-weight: bold;
+    font-size: 1.2em;
+}
+
+.Info-Text{
+    margin-top: -42%;
+    height: 3rem;
+    padding-top: 10px;
+    margin-bottom: 50em;
+}
+
+.Info-Text p{
+    text-align: justify;
+    margin-left: 8em;
+    margin-right: 8em;
+    margin-bottom: 2em;
+    font-size: 1.3em;
+}
+
+.Image-Art a{
+    text-decoration: none;
+    color: inherit;
+}
+
+.Image-Art{
+    margin-bottom: -36rem;
+}
+
+.paw_chie{
+    display: inline-block;
+    width: 80%;
+    border-radius: 25px;
+    margin-top: -20rem;
+}
+
+.Subtitle-Text2{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 80rem;
+    padding-top: 10px;
+}
+
+.Subtitle-Text2 p{
+    display: inline-block;
+    border-top: 2px solid #000 ;
+    border-bottom: 2px solid #000 ;
+    padding: 10px;
+    width: 85%;
+    font-weight: bold;
+    font-size: 1.2em;
+}
