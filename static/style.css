@@ -168,7 +168,7 @@ h1{
     font-size: 1.2em;
 }
 
-.Info-Text, .InfoChar, .InfoChar2, .InfoChar3{
+.Info-Text, .InfoChar, .InfoChar2, .InfoChar3, .EndChar{
     margin-top: -42%;
     height: 3rem;
     padding-top: 10px;
@@ -182,6 +182,16 @@ h1{
     margin-bottom: 1em;
     font-size: 1.2em;
     width: 30%;
+}
+
+.EndChar p{
+    text-align: justify;
+    margin-left: 5em;
+    margin-right: 2em;
+    margin-bottom: 1em;
+    font-size: 1.2em;
+    width: 85%;
+    transform: translateY(-32rem);
 }
 
 .InfoChar2 p{
@@ -219,6 +229,13 @@ h1{
 
 .Image-Art{
     margin-bottom: -37.5rem;
+}
+
+.Keisea{
+    display: inline-block;
+    width: 40%;
+    border-radius: 25px;
+    margin-top: -20rem;
 }
 
 .paw_chie{
