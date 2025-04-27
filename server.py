@@ -16,5 +16,5 @@ def erb():
     return render_template('erb.html')
 
 if __name__ == '__main__':
-    port = int(os.environ.get('PORT', 5000))  # ← this is important for Railway
+    port = int(os.environ.get('PORT', 5000))
     app.run(host='0.0.0.0', port=port)
