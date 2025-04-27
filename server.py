@@ -4,7 +4,7 @@ app = Flask(__name__)
 
 @app.route('/')
 def index():
-    return render_template('index.html')  # Archivo main para la página web 
+    return render_template('index.html') 
 
 @app.route('/nerissa')
 def nerissa():
